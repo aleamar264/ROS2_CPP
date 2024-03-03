@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "source /opt/ros/humble/setup.zsh && colcon build --symlink-install",
+            "type": "shell",
+            "args": []
+        },
+        {
+            "label": "debug",
+            "type": "shell",
+            "command": "echo -e \"\n\nRun the node using the following prefix: \n --prefix 'gdbserver localhost:3000' <package_name> <executable_name> \n\nAnd modify the executable path in .vscode/launch.json file\n\" && source /opt/ros/humble/setup.zsh && colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo"
+        }
+    ]
+}

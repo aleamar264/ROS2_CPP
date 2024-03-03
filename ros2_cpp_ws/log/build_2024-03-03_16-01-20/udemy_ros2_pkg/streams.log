@@ -1,0 +1,157 @@
+[0.024s] Invoking command in '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j12 -l12
+[0.067s] [  7%] Built target udemy_ros2_pkg__rosidl_generator_c
+[0.069s] [ 20%] Built target publisher
+[0.070s] [ 20%] Built target rpm_pub
+[0.070s] [ 20%] Built target subscriber
+[0.070s] [ 14%] Built target udemy_ros2_pkg__cpp
+[0.072s] [ 23%] Built target speed_calculation
+[0.077s] [ 23%] Built target ament_cmake_python_symlink_udemy_ros2_pkg
+[0.089s] [ 30%] Built target udemy_ros2_pkg__rosidl_typesupport_c
+[0.090s] [ 38%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c
+[0.093s] [ 45%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c
+[0.093s] [ 54%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp
+[0.093s] [ 60%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp
+[0.094s] [ 67%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[0.114s] [ 67%] Built target udemy_ros2_pkg
+[0.118s] [ 70%] [32mBuilding CXX object CMakeFiles/camera_service.dir/src/camera_service.cpp.o[0m
+[0.119s] [ 72%] Built target service_client
+[0.121s] [ 76%] Built target service_server
+[0.121s] [ 80%] Built target camera_client
+[0.132s] [ 81%] Built target udemy_ros2_pkg__py
+[0.152s] [ 87%] Built target udemy_ros2_pkg__rosidl_generator_py
+[0.175s] [ 96%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.175s] [ 98%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext
+[0.175s] [ 98%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext
+[0.310s] running egg_info
+[0.328s] writing udemy_ros2_pkg.egg-info/PKG-INFO
+[0.328s] writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt
+[0.328s] writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt
+[0.382s] reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[0.383s] writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[0.416s] [ 98%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg
+[6.543s] [100%] [32m[1mLinking CXX executable camera_service[0m
+[7.441s] [100%] Built target camera_service
+[7.456s] Invoked command in '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j12 -l12
+[7.570s] Invoking command in '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
+[7.577s] -- Install configuration: "RelWithDebInfo"
+[7.577s] -- Execute custom install script
+[7.578s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/rosidl_interfaces/udemy_ros2_pkg
+[7.578s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_generator_c__visibility_control.h
+[7.579s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/image_from_angle__functions.h
+[7.579s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/image_from_angle__struct.h
+[7.579s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/image_from_angle__type_support.h
+[7.580s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__functions.h
+[7.580s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.h
+[7.580s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.h
+[7.580s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/image_from_angle.h
+[7.580s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.h
+[7.581s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.sh
+[7.581s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.dsv
+[7.581s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.581s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/image_from_angle__rosidl_typesupport_fastrtps_c.h
+[7.581s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h
+[7.582s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/image_from_angle__builder.hpp
+[7.582s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/image_from_angle__struct.hpp
+[7.582s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/image_from_angle__traits.hpp
+[7.582s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__builder.hpp
+[7.582s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.hpp
+[7.582s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__traits.hpp
+[7.583s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/image_from_angle.hpp
+[7.583s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.hpp
+[7.583s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.584s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/image_from_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[7.584s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp
+[7.584s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.584s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/image_from_angle__rosidl_typesupport_introspection_c.h
+[7.585s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h
+[7.585s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/image_from_angle__rosidl_typesupport_introspection_cpp.hpp
+[7.585s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp
+[7.586s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[7.586s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[7.586s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[7.587s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.587s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.587s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[7.588s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/__init__.py
+[7.588s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_c.c
+[7.588s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.589s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[7.589s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/libudemy_ros2_pkg__rosidl_generator_py.so
+[7.590s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/__init__.py
+[7.590s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_image_from_angle.py
+[7.590s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_image_from_angle_s.c
+[7.590s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check.py
+[7.590s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check_s.c
+[7.590s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.590s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.591s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.591s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.591s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.591s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.591s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.idl
+[7.592s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/ImageFromAngle.idl
+[7.592s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.srv
+[7.592s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Request.msg
+[7.593s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Response.msg
+[7.593s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/ImageFromAngle.srv
+[7.594s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/ImageFromAngle_Request.msg
+[7.594s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/ImageFromAngle_Response.msg
+[7.594s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher
+[7.595s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber
+[7.595s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/rpm_pub
+[7.595s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/speed_calculation
+[7.595s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_server
+[7.595s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_client
+[7.596s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/camera_client
+[7.596s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/camera_service
+[7.596s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/rpm_node.launch.py
+[7.596s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[7.597s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[7.597s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[7.597s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[7.597s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[7.598s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[7.598s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[7.598s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[7.598s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[7.599s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[7.599s] -- Symlinking: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[7.607s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[7.607s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake-extras.cmake
+[7.607s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.607s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.607s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[7.608s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[7.608s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.608s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.608s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[7.609s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[7.609s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[7.609s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_c.so
+[7.610s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_c.so
+[7.610s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so
+[7.610s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_c.so
+[7.611s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_c.so
+[7.611s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_cpp.so
+[7.611s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_cpp.so
+[7.645s] Listing '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg'...
+[7.645s] Listing '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv'...
+[7.650s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_py.so
+[7.650s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport.cmake
+[7.650s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport-relwithdebinfo.cmake
+[7.650s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[7.651s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake
+[7.651s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cppExport.cmake
+[7.651s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.651s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake
+[7.651s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport.cmake
+[7.652s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[7.652s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport.cmake
+[7.652s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[7.652s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[7.652s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[7.652s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport.cmake
+[7.652s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[7.652s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport.cmake
+[7.652s] -- Up-to-date: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport-relwithdebinfo.cmake
+[7.657s] Invoked command in '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg

@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000642] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.001884] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.022963] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.023938] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg'], 'cwd': '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'env': OrderedDict([('USER', 'arthemis'), ('GIT_ASKPASS', '/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthemis'), ('OLDPWD', '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8544a906-aadf-40be-b2fd-32191ff8ee49.sock'), ('ZSH', '/home/arthemis/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthemis'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/204959_interop'), ('NAME', 'aleamar264'), ('_', '/home/arthemis/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/arthemis/.cache/cloud-code/m2c/bin:/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/usr/local/cuda-11.8/bin:/home/arthemis/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/usbipd-win/:/Docker/host/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/aleam/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aleam/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/texlive/2023/bin/windows:/mnt/c/Users/aleam/AppData/Local/GitHubDesktop/bin:Downloads/vcpkg'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '172.28.160.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4b74494fdd.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.041774] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099033] (-) TimerEvent: {}
+[0.190464] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.199213] (-) TimerEvent: {}
+[0.207953] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299356] (-) TimerEvent: {}
+[0.377242] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.380225] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.386757] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.398910] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.399446] (-) TimerEvent: {}
+[0.414724] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.474858] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.476046] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499614] (-) TimerEvent: {}
+[0.599974] (-) TimerEvent: {}
+[0.700350] (-) TimerEvent: {}
+[0.800778] (-) TimerEvent: {}
+[0.901266] (-) TimerEvent: {}
+[1.001744] (-) TimerEvent: {}
+[1.102269] (-) TimerEvent: {}
+[1.202744] (-) TimerEvent: {}
+[1.303215] (-) TimerEvent: {}
+[1.403631] (-) TimerEvent: {}
+[1.504092] (-) TimerEvent: {}
+[1.604536] (-) TimerEvent: {}
+[1.704989] (-) TimerEvent: {}
+[1.805443] (-) TimerEvent: {}
+[1.905866] (-) TimerEvent: {}
+[2.006313] (-) TimerEvent: {}
+[2.106749] (-) TimerEvent: {}
+[2.207130] (-) TimerEvent: {}
+[2.307606] (-) TimerEvent: {}
+[2.408095] (-) TimerEvent: {}
+[2.508497] (-) TimerEvent: {}
+[2.608909] (-) TimerEvent: {}
+[2.709327] (-) TimerEvent: {}
+[2.809703] (-) TimerEvent: {}
+[2.910080] (-) TimerEvent: {}
+[3.010532] (-) TimerEvent: {}
+[3.110970] (-) TimerEvent: {}
+[3.211423] (-) TimerEvent: {}
+[3.311862] (-) TimerEvent: {}
+[3.412350] (-) TimerEvent: {}
+[3.512746] (-) TimerEvent: {}
+[3.613122] (-) TimerEvent: {}
+[3.713516] (-) TimerEvent: {}
+[3.813913] (-) TimerEvent: {}
+[3.914271] (-) TimerEvent: {}
+[4.014862] (-) TimerEvent: {}
+[4.115244] (-) TimerEvent: {}
+[4.215681] (-) TimerEvent: {}
+[4.316080] (-) TimerEvent: {}
+[4.416502] (-) TimerEvent: {}
+[4.516895] (-) TimerEvent: {}
+[4.617283] (-) TimerEvent: {}
+[4.717761] (-) TimerEvent: {}
+[4.818248] (-) TimerEvent: {}
+[4.918640] (-) TimerEvent: {}
+[5.019088] (-) TimerEvent: {}
+[5.119808] (-) TimerEvent: {}
+[5.221490] (-) TimerEvent: {}
+[5.322025] (-) TimerEvent: {}
+[5.422458] (-) TimerEvent: {}
+[5.522865] (-) TimerEvent: {}
+[5.623264] (-) TimerEvent: {}
+[5.723689] (-) TimerEvent: {}
+[5.824101] (-) TimerEvent: {}
+[5.924567] (-) TimerEvent: {}
+[6.024945] (-) TimerEvent: {}
+[6.125350] (-) TimerEvent: {}
+[6.198639] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.225519] (-) TimerEvent: {}
+[6.326010] (-) TimerEvent: {}
+[6.426629] (-) TimerEvent: {}
+[6.527131] (-) TimerEvent: {}
+[6.527728] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.621682] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.621964] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.622053] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.622698] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.623731] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.623885] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.624384] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.626181] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.627239] (-) TimerEvent: {}
+[6.647158] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[6.650444] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg\n'}
+[6.667182] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[6.667943] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'build'}
+[6.669691] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', '--', '-j12', '-l12'], 'cwd': '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'env': OrderedDict([('USER', 'arthemis'), ('GIT_ASKPASS', '/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthemis'), ('OLDPWD', '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8544a906-aadf-40be-b2fd-32191ff8ee49.sock'), ('ZSH', '/home/arthemis/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthemis'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/204959_interop'), ('NAME', 'aleamar264'), ('_', '/home/arthemis/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/arthemis/.cache/cloud-code/m2c/bin:/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/usr/local/cuda-11.8/bin:/home/arthemis/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/usbipd-win/:/Docker/host/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/aleam/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aleam/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/texlive/2023/bin/windows:/mnt/c/Users/aleam/AppData/Local/GitHubDesktop/bin:Downloads/vcpkg'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '172.28.160.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4b74494fdd.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.709138] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[6.725377] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] Built target publisher\n'}
+[6.727425] (-) TimerEvent: {}
+[6.734896] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[6.760206] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'install'}
+[6.769185] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg'], 'cwd': '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'env': OrderedDict([('USER', 'arthemis'), ('GIT_ASKPASS', '/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthemis'), ('OLDPWD', '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8544a906-aadf-40be-b2fd-32191ff8ee49.sock'), ('ZSH', '/home/arthemis/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthemis'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/204959_interop'), ('NAME', 'aleamar264'), ('_', '/home/arthemis/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/arthemis/.cache/cloud-code/m2c/bin:/home/arthemis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/usr/local/cuda-11.8/bin:/home/arthemis/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/usbipd-win/:/Docker/host/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/aleam/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aleam/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/texlive/2023/bin/windows:/mnt/c/Users/aleam/AppData/Local/GitHubDesktop/bin:Downloads/vcpkg'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '172.28.160.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4b74494fdd.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.776224] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[6.776617] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.776872] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher\n'}
+[6.777155] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg\n'}
+[6.777564] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg\n'}
+[6.777998] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[6.778378] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[6.778573] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh\n'}
+[6.778835] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv\n'}
+[6.779014] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash\n'}
+[6.779254] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh\n'}
+[6.779505] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh\n'}
+[6.779868] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv\n'}
+[6.780067] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv\n'}
+[6.788622] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg\n'}
+[6.789062] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake\n'}
+[6.789458] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake\n'}
+[6.789611] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml\n'}
+[6.791153] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[6.827600] (-) TimerEvent: {}
+[6.865391] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 0}
+[6.866814] (-) EventReactorShutdown: {}

@@ -1,0 +1,34 @@
+[0.024s] Invoking command in '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j12 -l12
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target speed_calculation[0m
+[0.100s] [ 12%] [32mBuilding CXX object CMakeFiles/rpm_pub.dir/src/publisher_rpm.cpp.o[0m
+[0.103s] [ 37%] Built target publisher
+[0.106s] [ 62%] Built target subscriber
+[0.122s] [ 75%] [32mBuilding CXX object CMakeFiles/speed_calculation.dir/src/pub_sub_speed.cpp.o[0m
+[6.679s] [ 87%] [32m[1mLinking CXX executable rpm_pub[0m
+[6.961s] [ 87%] Built target rpm_pub
+[13.587s] [100%] [32m[1mLinking CXX executable speed_calculation[0m
+[13.879s] [100%] Built target speed_calculation
+[13.891s] Invoked command in '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j12 -l12
+[13.923s] Invoking command in '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
+[13.929s] -- Install configuration: "RelWithDebInfo"
+[13.931s] -- Execute custom install script
+[13.932s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher
+[13.932s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber
+[13.932s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/rpm_pub
+[13.932s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/speed_calculation
+[13.933s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[13.933s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[13.933s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[13.933s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[13.933s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[13.934s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[13.934s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[13.934s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[13.934s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[13.934s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[13.934s] -- Symlinking: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[13.942s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[13.942s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[13.942s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[13.942s] -- Up-to-date symlink: /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[13.945s] Invoked command in '/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg

@@ -1,0 +1,3 @@
+float32 angle #Angle of the camera to move
+---
+sensor_msgs/Image image_from_angle

@@ -1,0 +1,7 @@
+[01m[K/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/pub_sub_speed.cpp:[m[K In constructor ‘[01m[KSpeedCalcNode::SpeedCalcNode()[m[K’:
+[01m[K/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/pub_sub_speed.cpp:19:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   19 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/speed_calculation.dir/build.make:76: CMakeFiles/speed_calculation.dir/src/pub_sub_speed.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/speed_calculation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
