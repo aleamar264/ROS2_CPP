@@ -364,6 +364,9 @@ ament_cmake_symlink_install_files("/home/arthemis/Documents/courses/ROS2_CPP/Wor
 # install(FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/srv/ImageFromAngle.idl" "DESTINATION" "share/udemy_ros2_pkg/srv")
 ament_cmake_symlink_install_files("/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg" FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/srv/ImageFromAngle.idl" "DESTINATION" "share/udemy_ros2_pkg/srv")
 
+# install(FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/action/Navigate.idl" "DESTINATION" "share/udemy_ros2_pkg/action")
+ament_cmake_symlink_install_files("/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg" FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/action/Navigate.idl" "DESTINATION" "share/udemy_ros2_pkg/action")
+
 # install(FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/srv/OddEvenCheck.srv" "DESTINATION" "share/udemy_ros2_pkg/srv")
 ament_cmake_symlink_install_files("/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg" FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/srv/OddEvenCheck.srv" "DESTINATION" "share/udemy_ros2_pkg/srv")
 
@@ -382,7 +385,10 @@ ament_cmake_symlink_install_files("/home/arthemis/Documents/courses/ROS2_CPP/Wor
 # install(FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_cmake/srv/ImageFromAngle_Response.msg" "DESTINATION" "share/udemy_ros2_pkg/srv")
 ament_cmake_symlink_install_files("/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg" FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_cmake/srv/ImageFromAngle_Response.msg" "DESTINATION" "share/udemy_ros2_pkg/srv")
 
-# install("TARGETS" "publisher" "subscriber" "rpm_pub" "speed_calculation" "service_server" "service_client" "camera_client" "camera_service" "DESTINATION" "lib/udemy_ros2_pkg")
+# install(FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/action/Navigate.action" "DESTINATION" "share/udemy_ros2_pkg/action")
+ament_cmake_symlink_install_files("/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg" FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/action/Navigate.action" "DESTINATION" "share/udemy_ros2_pkg/action")
+
+# install("TARGETS" "publisher" "subscriber" "rpm_pub" "speed_calculation" "service_server" "service_client" "camera_client" "camera_service" "action_server" "DESTINATION" "lib/udemy_ros2_pkg")
 include("/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/udemy_ros2_pkg/")

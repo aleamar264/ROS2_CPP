@@ -262,8 +262,17 @@ CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  rosidl_generator_c/udemy_ros2_pkg/srv/detail/image_from_angle__functions.h
+  rosidl_generator_c/udemy_ros2_pkg/srv/detail/image_from_angle__functions.h \
+  rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__type_support.h \
+  rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__struct.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.h
 
+
+rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__struct.h:
+
+rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__type_support.h:
 
 rosidl_generator_c/udemy_ros2_pkg/srv/detail/image_from_angle__functions.h:
 
@@ -324,6 +333,8 @@ rosidl_generator_c/udemy_ros2_pkg/srv/detail/image_from_angle__struct.h:
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
@@ -481,6 +492,8 @@ rosidl_generator_c/udemy_ros2_pkg/srv/detail/image_from_angle__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
+/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
+
 /usr/include/python3.10/objimpl.h:
 
 /usr/include/python3.10/funcobject.h:
@@ -530,6 +543,8 @@ rosidl_generator_c/udemy_ros2_pkg/srv/detail/image_from_angle__type_support.h:
 /usr/include/features-time64.h:
 
 /usr/include/python3.10/cpython/pytime.h:
+
+rosidl_generator_c/udemy_ros2_pkg/action/detail/navigate__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 

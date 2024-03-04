@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/udemy_ros2_pkg__cpp"
+  "rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__builder.hpp"
+  "rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__struct.hpp"
+  "rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__traits.hpp"
+  "rosidl_generator_cpp/udemy_ros2_pkg/action/navigate.hpp"
   "rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__builder.hpp"
   "rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__struct.hpp"
   "rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__traits.hpp"

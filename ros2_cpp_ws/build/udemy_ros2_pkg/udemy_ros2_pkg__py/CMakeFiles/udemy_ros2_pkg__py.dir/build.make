@@ -71,9 +71,12 @@ udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2
 udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_c.c
 udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check.py
 udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/srv/_image_from_angle.py
+udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/action/_navigate.py
 udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/srv/__init__.py
+udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/action/__init__.py
 udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check_s.c
 udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/srv/_image_from_angle_s.c
+udemy_ros2_pkg__py/CMakeFiles/udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/action/_navigate_s.c
 
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -90,6 +93,7 @@ rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/udemy_ros2_pkg/srv/OddEvenCheck.idl
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/udemy_ros2_pkg/srv/ImageFromAngle.idl
+rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/udemy_ros2_pkg/action/Navigate.idl
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -179,6 +183,11 @@ rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/udemy_ros2_pkg__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -194,8 +203,14 @@ rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check.py: rosidl_generator_py/u
 rosidl_generator_py/udemy_ros2_pkg/srv/_image_from_angle.py: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/udemy_ros2_pkg/srv/_image_from_angle.py
 
+rosidl_generator_py/udemy_ros2_pkg/action/_navigate.py: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/udemy_ros2_pkg/action/_navigate.py
+
 rosidl_generator_py/udemy_ros2_pkg/srv/__init__.py: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/udemy_ros2_pkg/srv/__init__.py
+
+rosidl_generator_py/udemy_ros2_pkg/action/__init__.py: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/udemy_ros2_pkg/action/__init__.py
 
 rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check_s.c: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check_s.c
@@ -203,9 +218,15 @@ rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check_s.c: rosidl_generator_py/
 rosidl_generator_py/udemy_ros2_pkg/srv/_image_from_angle_s.c: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/udemy_ros2_pkg/srv/_image_from_angle_s.c
 
+rosidl_generator_py/udemy_ros2_pkg/action/_navigate_s.c: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/udemy_ros2_pkg/action/_navigate_s.c
+
 udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_c.c
 udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c
+udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/action/__init__.py
+udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/action/_navigate.py
+udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/action/_navigate_s.c
 udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/srv/__init__.py
 udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/srv/_image_from_angle.py
 udemy_ros2_pkg__py: rosidl_generator_py/udemy_ros2_pkg/srv/_image_from_angle_s.c

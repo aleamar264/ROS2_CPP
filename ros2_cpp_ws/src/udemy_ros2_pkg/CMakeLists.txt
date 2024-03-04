@@ -12,15 +12,20 @@ find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(cv_bridge REQUIRED)
-find_package(sensor_msgs )
+find_package(sensor_msgs)
+find_package(action_msgs)
+find_package(geometry_msgs)
+find_package(rclcpp_action)
 
 # Generate custom interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/OddEvenCheck.srv"
   "srv/ImageFromAngle.srv"
+  "action/Navigate.action"
   ADD_LINTER_TESTS
   DEPENDENCIES
-  sensor_msgs
+  sensor_msgs geometry_msgs action_msgs
+
 )
 
 # Set support for using custom interfac es in C++ from this package
@@ -53,8 +58,11 @@ add_executable(camera_client src/camera_client.cpp)
 ament_target_dependencies(camera_client rclcpp sensor_msgs OpenCV cv_bridge std_msgs)
 target_link_libraries(camera_client "${cpp_typesupport_target}")
 
-# OpenCv
-# ament_target_dependencies(xxxx rclcpp sensor_msgs OpenCv cv_bridge)
+add_executable(action_server src/action_server.cpp)
+ament_target_dependencies(action_server rclcpp std_msgs geometry_msgs action_msgs rclcpp_action)
+target_link_libraries(action_server "${cpp_typesupport_target}")
+
+
 
 # config for ROS2 cli tools
 install(TARGETS
@@ -66,6 +74,7 @@ install(TARGETS
   service_client
   camera_client
   camera_service
+  action_server
   DESTINATION lib/${PROJECT_NAME}
 
   )

@@ -4,7 +4,8 @@
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
     "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg:srv/OddEvenCheck.idl",
-    "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg:srv/ImageFromAngle.idl"
+    "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg:srv/ImageFromAngle.idl",
+    "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg:action/Navigate.idl"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
@@ -95,7 +96,12 @@
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/UInt64.idl",
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl",
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/UInt8.idl",
-    "std_msgs:/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl"
+    "std_msgs:/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl",
+    "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/humble/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
@@ -108,6 +114,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
     "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/srv/OddEvenCheck.idl",
     "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/srv/ImageFromAngle.idl",
+    "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/action/Navigate.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl",
@@ -196,6 +203,11 @@
     "/opt/ros/humble/share/std_msgs/msg/UInt64.idl",
     "/opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl",
     "/opt/ros/humble/share/std_msgs/msg/UInt8.idl",
-    "/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl"
+    "/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl",
+    "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/humble/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl"
   ]
 }

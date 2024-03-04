@@ -74,6 +74,10 @@ CMakeFiles/udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/image_fr
 CMakeFiles/udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__builder.hpp
 CMakeFiles/udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__struct.hpp
 CMakeFiles/udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__traits.hpp
+CMakeFiles/udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/action/navigate.hpp
+CMakeFiles/udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__builder.hpp
+CMakeFiles/udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__struct.hpp
+CMakeFiles/udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__traits.hpp
 
 rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -92,6 +96,7 @@ rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/shar
 rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: rosidl_adapter/udemy_ros2_pkg/srv/OddEvenCheck.idl
 rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: rosidl_adapter/udemy_ros2_pkg/srv/ImageFromAngle.idl
+rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: rosidl_adapter/udemy_ros2_pkg/action/Navigate.idl
 rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -181,6 +186,11 @@ rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/shar
 rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/rosidl_generator_cpp__arguments.json
 
@@ -205,7 +215,23 @@ rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__struct.hpp: ros
 rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__traits.hpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__traits.hpp
 
+rosidl_generator_cpp/udemy_ros2_pkg/action/navigate.hpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/udemy_ros2_pkg/action/navigate.hpp
+
+rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__builder.hpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__builder.hpp
+
+rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__struct.hpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__struct.hpp
+
+rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__traits.hpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__traits.hpp
+
 udemy_ros2_pkg__cpp: CMakeFiles/udemy_ros2_pkg__cpp
+udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__builder.hpp
+udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__struct.hpp
+udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/action/detail/navigate__traits.hpp
+udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/action/navigate.hpp
 udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__builder.hpp
 udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__struct.hpp
 udemy_ros2_pkg__cpp: rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/image_from_angle__traits.hpp

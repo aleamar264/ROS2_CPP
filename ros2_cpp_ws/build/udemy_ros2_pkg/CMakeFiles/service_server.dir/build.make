@@ -151,7 +151,9 @@ service_server: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 service_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 service_server: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 service_server: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+service_server: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
 service_server: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+service_server: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
 service_server: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 service_server: /opt/ros/humble/lib/librosidl_typesupport_c.so
 service_server: /opt/ros/humble/lib/librcpputils.so
