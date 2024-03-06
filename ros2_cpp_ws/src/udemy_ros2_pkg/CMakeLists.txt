@@ -62,6 +62,9 @@ add_executable(action_server src/action_server.cpp)
 ament_target_dependencies(action_server rclcpp std_msgs geometry_msgs action_msgs rclcpp_action)
 target_link_libraries(action_server "${cpp_typesupport_target}")
 
+add_executable(action_client src/action_client.cpp)
+ament_target_dependencies(action_client rclcpp std_msgs geometry_msgs action_msgs rclcpp_action)
+target_link_libraries(action_client "${cpp_typesupport_target}")
 
 
 # config for ROS2 cli tools
@@ -75,6 +78,7 @@ install(TARGETS
   camera_client
   camera_service
   action_server
+  action_client
   DESTINATION lib/${PROJECT_NAME}
 
   )

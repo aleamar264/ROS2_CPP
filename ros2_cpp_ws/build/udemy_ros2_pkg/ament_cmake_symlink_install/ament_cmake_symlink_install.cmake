@@ -388,7 +388,7 @@ ament_cmake_symlink_install_files("/home/arthemis/Documents/courses/ROS2_CPP/Wor
 # install(FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/action/Navigate.action" "DESTINATION" "share/udemy_ros2_pkg/action")
 ament_cmake_symlink_install_files("/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg" FILES "/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/action/Navigate.action" "DESTINATION" "share/udemy_ros2_pkg/action")
 
-# install("TARGETS" "publisher" "subscriber" "rpm_pub" "speed_calculation" "service_server" "service_client" "camera_client" "camera_service" "action_server" "DESTINATION" "lib/udemy_ros2_pkg")
+# install("TARGETS" "publisher" "subscriber" "rpm_pub" "speed_calculation" "service_server" "service_client" "camera_client" "camera_service" "action_server" "action_client" "DESTINATION" "lib/udemy_ros2_pkg")
 include("/home/arthemis/Documents/courses/ROS2_CPP/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/udemy_ros2_pkg/")

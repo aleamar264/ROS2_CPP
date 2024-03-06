@@ -510,6 +510,19 @@ action_server/fast:
 .PHONY : action_server/fast
 
 #=============================================================================
+# Target rules for targets named action_client
+
+# Build rule for target.
+action_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 action_client
+.PHONY : action_client
+
+# fast build rule for target.
+action_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/build
+.PHONY : action_client/fast
+
+#=============================================================================
 # Target rules for targets named udemy_ros2_pkg__py
 
 # Build rule for target.
@@ -1170,6 +1183,30 @@ rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__t
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.cpp.s
 
+src/action_client.o: src/action_client.cpp.o
+.PHONY : src/action_client.o
+
+# target to build an object file
+src/action_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/src/action_client.cpp.o
+.PHONY : src/action_client.cpp.o
+
+src/action_client.i: src/action_client.cpp.i
+.PHONY : src/action_client.i
+
+# target to preprocess a source file
+src/action_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/src/action_client.cpp.i
+.PHONY : src/action_client.cpp.i
+
+src/action_client.s: src/action_client.cpp.s
+.PHONY : src/action_client.s
+
+# target to generate assembly for a file
+src/action_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/src/action_client.cpp.s
+.PHONY : src/action_client.cpp.s
+
 src/action_server.o: src/action_server.cpp.o
 .PHONY : src/action_server.o
 
@@ -1406,6 +1443,7 @@ help:
 	@echo "... udemy_ros2_pkg__py"
 	@echo "... udemy_ros2_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... action_client"
 	@echo "... action_server"
 	@echo "... camera_client"
 	@echo "... camera_service"
@@ -1507,6 +1545,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.s"
+	@echo "... src/action_client.o"
+	@echo "... src/action_client.i"
+	@echo "... src/action_client.s"
 	@echo "... src/action_server.o"
 	@echo "... src/action_server.i"
 	@echo "... src/action_server.s"
