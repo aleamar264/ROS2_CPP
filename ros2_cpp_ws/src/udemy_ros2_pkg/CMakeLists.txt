@@ -16,6 +16,7 @@ find_package(sensor_msgs)
 find_package(action_msgs)
 find_package(geometry_msgs)
 find_package(rclcpp_action)
+find_package(ros_ign_gazebo)
 
 # Generate custom interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -83,10 +84,9 @@ install(TARGETS
 
   )
 
-install( DIRECTORY
-launch
-DESTINATION share/${PROJECT_NAME}/
-)
+install( DIRECTORY launch DESTINATION share/${PROJECT_NAME}/)
+install( DIRECTORY worlds DESTINATION share/${PROJECT_NAME}/)
+install( DIRECTORY models DESTINATION share/${PROJECT_NAME}/)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

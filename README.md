@@ -118,20 +118,20 @@ sudo apt install gcc gdb gdbserver -y
 ```
 With this we are ready to debug our code
 ```shell
-ros2 run --prefix 'gdbserver localhost:3000'  udemy_ros2_pkg publisher 
+ros2 run --prefix 'gdbserver localhost:3000'  udemy_ros2_pkg publisher
 ```
 ![[Pasted image 20240229175107.png]]
 
 ## Loggers
 
-For use the logger we need to write 
+For use the logger we need to write
 ```cpp
 RCLCPP_INFO(this->get_logger(), msg.data.c_str());
 ```
 
 With this we enable the logger. The advantages of this are:
 - Get the info in screen
-- Get the info in the log file create in `~/.ros/log` 
+- Get the info in the log file create in `~/.ros/log`
 
 To run logs in debug mode we need to things:
 ```cpp
@@ -148,7 +148,7 @@ Node parameters are variable parameters using in nodes.
 ```shell
 ros2 param list
 ros2 param get <node_name> <param_name>
-ros2 param set <node_name> <param_name> value 
+ros2 param set <node_name> <param_name> value
 ros2 run <pacakge> <execuable> --ros-args -p param_name:=value
 ```
 
@@ -210,4 +210,36 @@ target_link_libraries(service_server "${cpp_typesupport_target}")
 ros2 interface list
 ros2 service list
 ros2 service call <sevice_name> <srv_type> <req>
+```
+
+## Actions
+
+```
+ros2 action list
+```
+
+## Advance Features
+### Local Networks ROS Communication
+**Domain**:
+```shell
+export ROS_DOMAIN_ID=1 # First computer
+export ROS_DOMAIN_ID=2 # Second computer
+```
+When the 'bots' are connected to the same network but with different DOMAIN_ID they don't share any information, to share information should match the DOMAIN_ID in both. This also work in localhost.
+
+### Security
+```shell
+take ~/sros2_demo
+ros2 security create_keystore demo_keystore
+ros2 security create_enclave demo_keystore <name_of_the_node_to_secure>
+```
+
+```shell
+export ROS_SECURITY_KEYSTORE=~/sros2_demo/demo_keystore
+export ROS_SECURITY_ENABLE=true
+export ROS_SECURITY_STRATEGY=Enforce
+```
+
+```shell
+ros2 run <node> <executable> --ros-args --enclave <enclave>
 ```

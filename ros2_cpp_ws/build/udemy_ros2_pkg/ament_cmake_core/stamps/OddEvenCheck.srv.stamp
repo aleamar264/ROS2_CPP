@@ -1,4 +1,0 @@
-int64 number # Number to check if is odd or even
----
-# Response
-string decision # Either Odd or Even
